@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "bin*" -printf '.' | wc -m
+find . -maxdepth 1 -name "bin*" | wc -l
